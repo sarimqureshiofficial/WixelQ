@@ -138,3 +138,9 @@
 }
 @utility animate-float-slow { animation: float-slow 14s ease-in-out infinite; }
 @utility animate-float-slower { animation: float-slower 18s ease-in-out infinite; }
+
+/* Mobile Optimization for QR Code */
+#generator svg, #generator canvas {
+  max-width: 100% !important;
+  height: auto !important;
+}
