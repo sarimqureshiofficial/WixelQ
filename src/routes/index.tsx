@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
       { property: "og:title", content: "WixelQ — Free QR Code Generator" },
       { property: "og:description", content: "Beautiful, customizable QR codes in seconds. Free forever." },
       { property: "og:type", content: "website" },
-      { property: "og:url", content: "/" },
+      { property: "og:url", content: "https://wixel-q.vercel.app/" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "keywords", content: "qr code generator, free qr code generator, qr code maker, create qr code, wifi qr code, whatsapp qr code, instagram qr code, dynamic qr code, qr generator online" },
     ],
