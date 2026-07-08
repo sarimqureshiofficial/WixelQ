@@ -11,7 +11,8 @@ import QRGenerator from "@/components/QRGenerator";
 import ThemeToggle from "@/components/ThemeToggle";
 import Scanner from "@/components/Scanner";
 import Footer from "@/components/Footer";
-
+import AdBanner from "@/components/AdBanner";
+import NativeAd from "@/components/NativeAd";
 export const Route = createFileRoute("/")({
   component: Home,
   head: () => ({
@@ -183,6 +184,7 @@ function Home() {
 
       {/* Generator */}
       <QRGenerator />
+      <AdBanner />
 
       {/* Categories */}
       <section id="categories" className="mx-auto max-w-7xl px-4 py-16">
@@ -286,6 +288,7 @@ function Home() {
         </div>
       </section>
 
+      <NativeAd />
       <Footer />
 
       <Scanner open={scannerOpen} onClose={() => setScannerOpen(false)} />

@@ -107,6 +107,8 @@ function RootShell({ children }: { children: ReactNode }) {
       <body>
         {children}
         <Scripts />
+        <script type="text/javascript" src="https://pl30258153.effectivecpmnetwork.com/78/6e/51/786e510a3b2664ee9134a4cf0a8f10d8.js"></script>
+        <script type="text/javascript" src="https://pl30258150.effectivecpmnetwork.com/37/db/8f/37db8f77d2239664b0b57a48ad2d363b.js"></script>
       </body>
     </html>
   );
